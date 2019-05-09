@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomActivity"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_clear"
+        android:text="clear"
+        android:onClick="onClearClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--커스텀 뷰 MyView를 다른 액티비티에서 사용-->
+    <kr.co.woobi.imyeon.loaddataexam.MyView
+        android:id="@+id/myview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogActivity">
+
+    <Button
+        android:text="액티비티로 만든 다이얼로그 띄우기"
+        android:id="@+id/button_dialog_open"
+        android:layout_width="wrap_content"
+        android:onClick="onOpenDialog"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="얼럿 다이얼로그 띄우기"
+        android:id="@+id/button_alert_dialog_open"
+        android:layout_width="wrap_content"
+        android:onClick="onOpenAlertDialog"
+        android:layout_height="wrap_content" />
+</LinearLayout>
